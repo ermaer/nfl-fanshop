@@ -1,0 +1,26 @@
+# NFL Fan Shop TODO
+
+- [x] 32支球队数据 (shared/teams-data.ts)
+- [x] 数据库schema: teams/products/cart_items/orders/order_items (表已存在于DB)
+- [x] 种子数据: 32队 x 2商品, 64张AI商品图URL全部入库
+- [x] 赛博朋克霓虹主题 (index.css + 字体)
+- [x] 后端: db helpers + tRPC路由 (teams/products/cart/orders/admin)
+- [x] Stripe结账 + webhook + syncStatus (密钥未配置时报 STRIPE_NOT_CONFIGURED)
+- [x] 首页 Home (Hero + 分类入口 + 32队网格 + 热卖)
+- [x] 球队页 Teams (按分区展示)
+- [x] 商品列表 Shop (球队筛选/类型筛选/关键词搜索)
+- [x] 商品详情 ProductDetail (图片/价格/尺码/数量)
+- [x] 购物车 Cart (增删改数量/小计)
+- [x] 结账 Checkout + 订单成功页 + 我的订单
+- [x] 管理员后台: 产品CRUD + 图片上传 + 价格库存 + 订单查看
+- [x] 权限控制 adminProcedure + AdminGuard
+- [x] vitest 测试 (12项全部通过)
+- [x] 截图视觉验证 (首页/商品列表/球队/详情/购物车/后台)
+- [x] checkpoint 交付
+- [x] Stripe密钥有效性验证 (stripe-credentials.test.ts 调用真实API通过)
+- [x] 补充测试: 有效密钥下 checkout 返回真实 checkout.stripe.com URL 且持久化 cs_ 会话ID; 支付闭环 markOrderPaid→paid + 清空购物车 (19项测试全部通过)
+- [x] 首页视频背景: 下载GitHub视频并上传S3, 静音/自动播放/无缝循环, object-fit:cover满屏, 去掉颜色遮罩, 确保文字按钮清晰重叠
+- [x] 补充测试: 购物车添加/改数量/删除/小计 (cart-orders.test.ts, 通过)
+- [x] 补充测试: 结账下单流程 (Stripe未配置降级pending) + 订单读取 + 权限隔离 + 管理员订单状态更新 (通过, 共15项测试)
+- [x] 截图验证 /checkout /orders (含Stripe未配置提示条)
+- [x] SEO修复: title=55字符, description=150字符, keywords=6个 (全部在限制范围内)
