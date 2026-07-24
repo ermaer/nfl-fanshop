@@ -124,7 +124,7 @@ export default function ProductDetail() {
         <div className="grid md:grid-cols-2 gap-10">
           <div className="hud-corners border border-border/70 bg-card relative overflow-hidden">
             {product.imageUrl ? (
-              <img src={product.imageUrl} alt={product.name} className="w-full aspect-square object-cover" />
+              <img src={product.imageUrl} alt={`${team.city} ${team.name} ${product.productType === "tshirt" ? "Fan T-Shirt" : "Game-Day Dress"} — ${product.name} — ${formatPrice(product.priceCents)} | NFL Fan Shop`} className="w-full aspect-square object-cover" />
             ) : (
               <div className="w-full aspect-square flex items-center justify-center font-tech text-muted-foreground">
                 [ NO IMAGE ]

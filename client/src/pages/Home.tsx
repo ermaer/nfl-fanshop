@@ -22,6 +22,18 @@ export default function Home() {
   });
 
   useEffect(() => {
+    // VideoObject schema for hero background video
+    const cleanupVideo = injectJsonLd({
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "NFL Fan Shop — All 32 Teams Game Day Gear",
+      "description": "Premium fan tees and game-day dresses for every NFL franchise. Suit up for the neon gridiron.",
+      "thumbnailUrl": `${import.meta.env.VITE_BASE_URL || "https://nflfanshop.vip"}/og-image.png`,
+      "contentUrl": `${import.meta.env.VITE_BASE_URL || "https://nflfanshop.vip"}/manus-storage/generated_video_hd_425ae3e9.mp4`,
+      "uploadDate": "2026-07-24",
+      "duration": "PT15S",
+    });
+
     if (featured.length > 0) {
       const cleanup = injectItemListJsonLd(
         featured.map(row => ({
@@ -32,8 +44,9 @@ export default function Home() {
         })),
         injectJsonLd,
       );
-      return cleanup;
+      return () => { cleanup(); cleanupVideo(); };
     }
+    return cleanupVideo;
   }, [featured, injectJsonLd]);
 
   return (

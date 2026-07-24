@@ -11,7 +11,7 @@ export default function ProductCard({ product, team }: { product: Product; team:
           {product.imageUrl ? (
             <img
               src={product.imageUrl}
-              alt={product.name}
+              alt={`${team.city} ${team.name} ${product.productType === "tshirt" ? "Fan T-Shirt" : "Game-Day Dress"} — ${product.name} | NFL Fan Shop`}
               loading="lazy"
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
