@@ -51,13 +51,13 @@ async function startServer() {
       const db = await getDb();
 
       let teamRows: { abbreviation: string }[] = [];
-      let productRows: { id: number; updatedAt: Date | null }[] = [];
-      let newsRows: { slug: string; updatedAt: Date | null }[] = [];
+      let productRows: { id: number; updatedAt: Date | null; imageUrl: string | null }[] = [];
+      let newsRows: { slug: string; updatedAt: Date | null; imageUrl: string | null }[] = [];
 
       if (db) {
         const { newsArticles } = await import("../../drizzle/schema");
         teamRows = await db.select({ abbreviation: teams.abbreviation }).from(teams);
-        productRows = await db.select({ id: products.id, updatedAt: products.updatedAt }).from(products);
+        productRows = await db.select({ id: products.id, updatedAt: products.updatedAt, imageUrl: products.imageUrl }).from(products);
         newsRows = await db.select({ slug: newsArticles.slug, updatedAt: newsArticles.updatedAt })
           .from(newsArticles).where(eq(newsArticles.isPublished, true));
       }
@@ -82,12 +82,15 @@ async function startServer() {
         urls.push(`  <url><loc>${BASE_URL}/shop?team=${team.abbreviation}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>`);
       }
 
-      // Add all product detail pages
+      // Add all product detail pages with images
       for (const product of productRows) {
         const prodLastmod = product.updatedAt
           ? new Date(product.updatedAt).toISOString().split("T")[0]
           : lastmod;
-        urls.push(`  <url><loc>${BASE_URL}/product/${product.id}</loc><changefreq>weekly</changefreq><priority>0.7</priority><lastmod>${prodLastmod}</lastmod></url>`);
+        const imageTag = product.imageUrl
+          ? `\n      <image:image><image:loc>${BASE_URL}${product.imageUrl}</image:loc></image:image>`
+          : "";
+        urls.push(`  <url><loc>${BASE_URL}/product/${product.id}</loc><changefreq>weekly</changefreq><priority>0.7</priority><lastmod>${prodLastmod}</lastmod>${imageTag}</url>`);
       }
 
       // Add all news article pages

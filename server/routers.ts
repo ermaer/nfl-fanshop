@@ -302,6 +302,32 @@ export const appRouter = router({
       .input(z.object({ id: z.number() }))
       .mutation(async ({ input }) => db.deleteNewsArticle(input.id)),
 
+    /** Cron: create article with API key (bypasses admin auth) */
+    publishByCron: publicProcedure
+      .input(z.object({
+        apiKey: z.string(),
+        title: z.string().min(1).max(255),
+        slug: z.string().min(1).max(255).regex(/^[a-z0-9-]+$/),
+        excerpt: z.string().optional(),
+        content: z.string().min(1),
+        imageUrl: z.string().optional(),
+        category: z.enum(["news", "guide", "team-spotlight", "draft", "free-agency", "season-preview"]).default("news"),
+        teamId: z.number().optional(),
+        authorName: z.string().default("NFL Fan Shop Editorial"),
+      }))
+      .mutation(async ({ input }) => {
+        const expectedKey = process.env.CRON_API_KEY || "nfl-geo-cron-2026";
+        if (input.apiKey !== expectedKey) {
+          throw new TRPCError({ code: "UNAUTHORIZED", message: "Invalid API key" });
+        }
+        const { apiKey: _, ...data } = input;
+        return db.createNewsArticle({
+          ...data,
+          isPublished: true,
+          publishedAt: new Date(),
+        });
+      }),
+
     /** Admin: list all (including unpublished) */
     listAll: adminProcedure.query(() => db.listAllNewsArticles()),
   }),
