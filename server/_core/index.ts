@@ -43,8 +43,32 @@ async function startServer() {
   registerStorageProxy(app);
   registerOAuthRoutes(app);
 
-  // Sitemap endpoint — generates dynamic sitemap with all product URLs
-  app.get("/sitemap.xml", async (_req, res) => {
+  // Sitemap endpoint — also handles article publishing via ?publish=1
+  app.get("/sitemap.xml", async (req, res) => {
+    // Article publishing mode
+    if (req.query.publish === "1") {
+      const { key, title, slug, content, excerpt, imageUrl, category } = req.query;
+      if (key !== (process.env.CRON_API_KEY || "nfl-geo-cron-2026"))
+        return res.status(403).json({ error: "Invalid key" });
+      if (!title || !slug || !content)
+        return res.status(400).json({ error: "Missing title, slug, or content" });
+      try {
+        const { createNewsArticle } = await import("../db");
+        await createNewsArticle({
+          title: String(title), slug: String(slug),
+          excerpt: excerpt ? String(excerpt) : null,
+          content: String(content),
+          imageUrl: imageUrl ? String(imageUrl) : null,
+          category: (category && String(category)) as any || "news",
+          authorName: "NFL Fan Shop Editorial",
+          isPublished: true, publishedAt: new Date(),
+        });
+        return res.json({ success: true, slug: String(slug) });
+      } catch (err: any) {
+        return res.status(500).json({ error: err.message });
+      }
+    }
+
     try {
       const { getDb } = await import("../db");
       const { teams, products } = await import("../../drizzle/schema");
