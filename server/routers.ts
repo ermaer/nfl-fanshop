@@ -315,7 +315,7 @@ export const appRouter = router({
         teamId: z.number().optional(),
         authorName: z.string().default("NFL Fan Shop Editorial"),
       }))
-      .mutation(async ({ input }) => {
+      .query(async ({ input }) => {
         const expectedKey = process.env.CRON_API_KEY || "nfl-geo-cron-2026";
         if (input.apiKey !== expectedKey) {
           throw new TRPCError({ code: "UNAUTHORIZED", message: "Invalid API key" });
