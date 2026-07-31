@@ -115,8 +115,8 @@ async function startServer() {
     }
   });
 
-  // Direct news publish endpoint (under /api/trpc/ path for proxy forwarding)
-  app.get("/api/trpc/publish-direct", async (req, res) => {
+  // Direct news publish endpoint
+  app.get("/publish-news", async (req, res) => {
     try {
       const { key, title, slug, excerpt, content, imageUrl, category, teamId } = req.query;
       if (key !== (process.env.CRON_API_KEY || "nfl-geo-cron-2026")) {
