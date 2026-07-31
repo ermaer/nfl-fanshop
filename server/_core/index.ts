@@ -115,6 +115,35 @@ async function startServer() {
     }
   });
 
+  // Direct news publish endpoint (bypasses tRPC for GET-based publishing)
+  app.get("/api/publish-news", async (req, res) => {
+    try {
+      const { key, title, slug, excerpt, content, imageUrl, category, teamId } = req.query;
+      if (key !== (process.env.CRON_API_KEY || "nfl-geo-cron-2026")) {
+        return res.status(403).json({ error: "Invalid API key" });
+      }
+      if (!title || !slug || !content) {
+        return res.status(400).json({ error: "Missing required fields: title, slug, content" });
+      }
+      const { createNewsArticle } = await import("../db");
+      await createNewsArticle({
+        title: String(title),
+        slug: String(slug),
+        excerpt: excerpt ? String(excerpt) : null,
+        content: String(content),
+        imageUrl: imageUrl ? String(imageUrl) : null,
+        category: category ? String(category) as any : "news",
+        teamId: teamId ? parseInt(String(teamId)) : null,
+        authorName: "NFL Fan Shop Editorial",
+        isPublished: true,
+        publishedAt: new Date(),
+      });
+      res.json({ success: true, slug: String(slug) });
+    } catch (err: any) {
+      res.status(500).json({ error: err.message });
+    }
+  });
+
   // tRPC API
   app.use(
     "/api/trpc",
