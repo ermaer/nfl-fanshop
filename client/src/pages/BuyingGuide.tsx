@@ -97,8 +97,8 @@ export default function BuyingGuide() {
       "description": "Complete guide to buying NFL fan gear in 2026. Compare t-shirts vs dresses, check sizing, and get the best value for all 32 teams.",
       "author": { "@type": "Organization", "name": "NFL Fan Shop" },
       "publisher": { "@type": "Organization", "name": "NFL Fan Shop" },
-      "datePublished": "2026-07-31",
-      "dateModified": "2026-07-31",
+      "datePublished": "2026-08-16",
+      "dateModified": "2026-08-16",
       "mainEntityOfPage": { "@type": "WebPage", "@id": `${import.meta.env.VITE_BASE_URL || ""}/buying-guide` },
     });
 
@@ -124,7 +124,7 @@ export default function BuyingGuide() {
           THE ULTIMATE NFL FAN GEAR BUYING GUIDE
         </h1>
         <p className="font-tech text-sm text-muted-foreground tracking-wide mb-2">
-          Updated July 2026 · 6 min read · By NFL Fan Shop Editorial Team
+          Updated Aug 16, 2026 · 6 min read · By NFL Fan Shop Editorial Team
         </p>
 
         {/* Key Facts Block — "Fact Block" for AI citation */}
