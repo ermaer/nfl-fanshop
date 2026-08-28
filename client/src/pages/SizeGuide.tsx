@@ -79,8 +79,8 @@ export default function SizeGuide() {
       "description": "Complete size chart with inch and centimeter measurements for NFL t-shirts and women's dresses. Chest, waist, hip, length, sleeve measurements for sizes XS through 3XL.",
       "author": { "@type": "Organization", "name": "NFL Fan Shop" },
       "publisher": { "@type": "Organization", "name": "NFL Fan Shop" },
-      "datePublished": "2026-08-28",
-      "dateModified": "2026-08-28",
+      "datePublished": "2026-08-29",
+      "dateModified": "2026-08-29",
     });
   }, [injectJsonLd]);
 
@@ -92,7 +92,7 @@ export default function SizeGuide() {
           SIZE GUIDE & MEASUREMENTS
         </h1>
         <p className="font-tech text-sm text-muted-foreground tracking-wide mb-2">
-          All measurements in inches (in) and centimeters (cm) · Updated Aug 28, 2026
+          All measurements in inches (in) and centimeters (cm) · Updated Aug 29, 2026
         </p>
 
         {/* Fabric Facts */}
