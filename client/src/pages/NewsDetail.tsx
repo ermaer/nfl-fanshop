@@ -5,8 +5,9 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { trpc } from "@/lib/trpc";
 import { useSeoHead } from "@/lib/useSeoHead";
 import { Calendar, Share2, User } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { Link, useParams } from "wouter";
+import { staticNews } from "@/data/staticNews";
 
 const CATEGORIES: Record<string, string> = {
   news: "NFL News",
@@ -25,7 +26,13 @@ function formatDate(d: Date | string | null): string {
 
 export default function NewsDetail() {
   const { slug } = useParams<{ slug: string }>();
-  const { data: article, isLoading, error } = trpc.news.bySlug.useQuery({ slug: slug ?? "" }, { enabled: !!slug });
+  const { data: dbArticle, isLoading, error } = trpc.news.bySlug.useQuery({ slug: slug ?? "" }, { enabled: !!slug });
+  // Fallback: when the DB-backed API errors or finds nothing, serve the bundled static article.
+  const article = useMemo(() => {
+    if (dbArticle) return dbArticle;
+    if (isLoading) return undefined;
+    return (staticNews.find(a => a.slug === slug) ?? null) as typeof dbArticle;
+  }, [dbArticle, isLoading, slug]);
 
   const { injectJsonLd } = useSeoHead({
     title: article ? `${article.title} | NFL Fan Shop News` : "News | NFL Fan Shop",
@@ -42,7 +49,11 @@ export default function NewsDetail() {
         "@type": "NewsArticle",
         "headline": article.title,
         "description": article.excerpt || "",
-        "image": article.imageUrl ? `${import.meta.env.VITE_BASE_URL || ""}${article.imageUrl}` : undefined,
+        "image": article.imageUrl
+          ? (article.imageUrl.startsWith("http")
+              ? article.imageUrl
+              : `${import.meta.env.VITE_BASE_URL || ""}${article.imageUrl}`)
+          : undefined,
         "datePublished": article.publishedAt,
         "dateModified": article.updatedAt,
         "author": {
@@ -137,11 +148,18 @@ export default function NewsDetail() {
           )}
 
           {/* Content */}
-          <div className="font-tech text-sm text-muted-foreground tracking-wide leading-relaxed space-y-4">
-            {article.content.split("\n\n").map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
+          {/<[a-z!\/][^>]*>/i.test(article.content || "") ? (
+            <div
+              className="font-tech text-sm text-muted-foreground tracking-wide leading-relaxed space-y-4 article-html"
+              dangerouslySetInnerHTML={{ __html: article.content }}
+            />
+          ) : (
+            <div className="font-tech text-sm text-muted-foreground tracking-wide leading-relaxed space-y-4">
+              {(article.content || "").split("\n\n").map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+            </div>
+          )}
 
           {/* Team link if applicable */}
           {article.teamId && (

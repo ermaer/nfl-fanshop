@@ -1,4 +1,5 @@
 import ShopLayout from "@/components/ShopLayout";
+import { staticNews } from "@/data/staticNews";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { trpc } from "@/lib/trpc";
@@ -24,9 +25,18 @@ function formatDate(d: Date | string | null): string {
 
 export default function NewsList() {
   const [category, setCategory] = useState<string>("");
-  const { data: articles, isLoading } = trpc.news.list.useQuery(
+  const { data: dbArticles, isLoading, error } = trpc.news.list.useQuery(
     category ? { category } : undefined,
   );
+  // Fallback to bundled static articles when the DB-backed news API is down or empty.
+  const fallbackActive = !!error || (dbArticles !== undefined && dbArticles.length === 0);
+  const articles = dbArticles && dbArticles.length > 0
+    ? dbArticles
+    : fallbackActive
+      ? staticNews
+          .filter(a => !category || a.category === category)
+          .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+      : undefined;
 
   useSeoHead({
     title: category
