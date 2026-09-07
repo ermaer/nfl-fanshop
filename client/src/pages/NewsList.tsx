@@ -25,18 +25,18 @@ function formatDate(d: Date | string | null): string {
 
 export default function NewsList() {
   const [category, setCategory] = useState<string>("");
-  const { data: dbArticles, isLoading, error } = trpc.news.list.useQuery(
+  const { data: dbArticles, isLoading } = trpc.news.list.useQuery(
     category ? { category } : undefined,
   );
-  // Fallback to bundled static articles when the DB-backed news API is down or empty.
-  const fallbackActive = !!error || (dbArticles !== undefined && dbArticles.length === 0);
-  const articles = dbArticles && dbArticles.length > 0
-    ? dbArticles
-    : fallbackActive
-      ? staticNews
-          .filter(a => !category || a.category === category)
-          .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
-      : undefined;
+  // Merge DB articles with bundled static fallback articles (static only fills
+  // gaps by slug, so no duplicates appear once the DB backlog is published).
+  const dbList = dbArticles && dbArticles.length > 0 ? dbArticles : [];
+  const staticFill = staticNews
+    .filter(a => !dbList.some(d => d.slug === a.slug))
+    .filter(a => !category || a.category === category);
+  const articles = (isLoading && dbArticles === undefined)
+    ? undefined
+    : [...dbList, ...staticFill].sort((a, b) => String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")));
 
   useSeoHead({
     title: category

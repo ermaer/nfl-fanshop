@@ -26,7 +26,7 @@ function formatDate(d: Date | string | null): string {
 
 export default function NewsDetail() {
   const { slug } = useParams<{ slug: string }>();
-  const { data: dbArticle, isLoading, error } = trpc.news.bySlug.useQuery({ slug: slug ?? "" }, { enabled: !!slug });
+  const { data: dbArticle, isLoading } = trpc.news.bySlug.useQuery({ slug: slug ?? "" }, { enabled: !!slug });
   // Fallback: when the DB-backed API errors or finds nothing, serve the bundled static article.
   const article = useMemo(() => {
     if (dbArticle) return dbArticle;
@@ -88,7 +88,7 @@ export default function NewsDetail() {
     );
   }
 
-  if (error || !article) {
+  if (!article) {
     return (
       <ShopLayout>
         <div className="container py-24 text-center max-w-3xl">
