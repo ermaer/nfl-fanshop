@@ -321,4 +321,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-08 00:03:10",
   },
+  {
+    id: 10028,
+    title: "NFL Records on the Line in 2026: Milestones Worth Chasing",
+    slug: "nfl-records-on-the-line-2026-milestones-worth-chasing",
+    excerpt: "A new NFL season brings history into view. These are the records and milestones within reach in 2026.",
+    content: "Every NFL season begins with a fresh chase for history. In 2026 several all-time records sit within striking distance, and the players chasing them will define the year. The passing records continue to fall as offenses evolve, and the league's top quarterbacks are positioned to rewrite the books again.The most anticipated chase is the career touchdown mark for a receiver still playing at an elite level. With a healthy season, he could climb past two more legends and stand alone at the top of the list. His combination of size, route running and chemistry with his quarterback has kept him productive deep into his career, and every defensive coordinator facing him knows history could be made on any given Sunday.On the defensive side, a young pass rusher enters the season with a realistic shot at a 20-sack campaign, a number reached only a handful of times in league history. The modern game's spread offenses create more one-on-one rush opportunities, and his first-step quickness is the best in the league. Quarterbacks in his division have already adjusted their protection schemes just to slow him down.Special teams history is also on the line. A returner with elite top-end speed needs only two more return touchdowns to break the all-time record, and his team has made clear it will keep giving him chances. Blocking units across the league have spent training camp practicing punt coverage against him specifically.For fantasy football managers, milestone chases matter. Players chasing history tend to get every opportunity to score, which makes them reliable weekly starters. Before setting your lineup, check the injury report and confirm these stars are healthy, then watch history happen. When a record falls, the moment belongs to the player — but fantasy owners who started him get to celebrate too.The 2026 season is only weeks from kickoff. Between the rookie rankings and the MVP race, the storylines are loaded. But the quiet pursuit of records may be the most compelling one of all.",
+    imageUrl: "https://sc02.alicdn.com/kf/Ac2a87ce4ca87449abc0c62778d9d0261e.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-08 06:02:32",
+  },
 ];
