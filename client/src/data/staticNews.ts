@@ -310,4 +310,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-07 21:03:55",
   },
+  {
+    id: 10027,
+    title: "NFL Week 1 Rookie Debuts: 5 First-Year Players to Watch",
+    slug: "nfl-week-1-rookie-debuts-first-year-players-to-watch",
+    excerpt: "Opening weekend introduces a new draft class. These five NFL rookies are poised to make an instant Week 1 impact.",
+    content: "Week 1 is when the NFL's newest draft class finally plays for real. Preseason flashes fade and the rookie rankings get rewritten once the bullets start flying. Here are the first-year players with the best chance to announce themselves on opening weekend.The quarterbacks drafted in April headline every debut list, and 2026 is no different. The top signal-callers from this year's NFL draft prospects class earned starting jobs by winning training camp competitions, and their Week 1 matchups will set the tone for their entire rookie seasons. How each handles the speed of a real game plan will move the rookie rankings more than any preseason tape.Offensive skill players tend to flash fastest. The first-round receivers who dominated the summer are walking into featured roles, and teams that drafted them are determined to get them involved early — expect screens, jet sweeps and deep shots designed to create quick confidence. Running backs drafted in the middle rounds are also worth watching; committees open up when a rookie shows he can pass protect, and Week 1 workloads reveal which backs earned the coaches' trust in camp.Defensively, edge rushers and cornerbacks from this class should see heavy snaps immediately. Coordinators drafted them to fix specific weaknesses, and opening week often features a matchup that highlights their skill set — a young pass rusher facing a backup tackle, or a rookie corner shadowing a star receiver. Those one-on-one wins are how depth chart risers are born.For fantasy football managers, Week 1 is the time to start trusting camp buzz. Rookies who earned starting roles against veterans rarely go back to the bench after a strong debut, and early-season waiver wire adds often become league winners. Check the injury report before kickoff, confirm the starter status, and give the new class a shot in your lineup.The 2026 draft class arrived with high expectations. By Sunday night, we will know which players are ready for the moment — and the rookie rankings will never look the same.",
+    imageUrl: "https://sc02.alicdn.com/kf/A46f13910d7344f35a99fdbbc8982b2c3w.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-08 00:03:10",
+  },
 ];
