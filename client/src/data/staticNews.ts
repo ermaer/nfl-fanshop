@@ -354,4 +354,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-08 21:03:25",
   },
+  {
+    id: 10031,
+    title: "Hidden Third Phase: Why Special Teams Win Close NFL Games",
+    slug: "hidden-third-phase-special-teams-win-close-games",
+    excerpt: "Field position decides football games. Here's why special teams are the NFL's most underrated unit.",
+    content: "Offense sells tickets and defense wins headlines, but special teams decide which NFL teams win close games. The third phase only gets a few snaps a game, yet field position swings of twenty yards change win probability more than most fans realize.The math is simple: a punt that pins an opponent inside their own ten-yard line is worth nearly as much as a field goal. Analytics-driven coaches now treat punting and returns as extensions of the playbook, scripting gunners and return schemes the way they script the first fifteen offensive plays. Elite kickers and punters command real contracts in the modern NFL salary cap because their teams understand the value of hidden yards.Coaches hunt special teams contributors the same way scouts hunt NFL draft prospects. Undrafted free agents who fly down on kickoff coverage become core rotation players, and the best depth charts in the league are loaded with backup defensive backs who double as gunners. Every roster spot earns its keep in the third phase, which is why special teams play shapes team roster decisions all the way to cutdown day.Injury report season adds another layer: a banged-up return specialist forces the depth chart to reshuffle, and coverage units lose their most dangerous athletes. Teams that protect their special teams core stay ahead in close games, while depleted units give up game-changing returns late in the season.The playoff picture is full of teams separated by one score, and division standings are decided by field goal kickers more often than anyone admits. Super Bowl odds shift when a franchise locks in a reliable kicking game, because championship football is close football. The team that wins the hidden third phase usually wins the fourth quarter too.Next time you watch, keep an eye on the punter and the gunner instead of the star quarterback for one series. You will see the game within the game, and understand why special teams truly win championships.",
+    imageUrl: "https://sc02.alicdn.com/kf/Af4590087352845be8887aab564a510f1E.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-09 06:01:19",
+  },
 ];
