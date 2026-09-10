@@ -398,4 +398,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-11 00:01:57",
   },
+  {
+    id: 10035,
+    title: "NFL Playoff Picture 2026: Early AFC and NFC Predictions",
+    slug: "nfl-playoff-picture-2026-afc-nfc-predictions",
+    excerpt: "The 2026 playoff picture is already taking shape. Here is how the AFC and NFC bracket could look this January.",
+    content: "The 2026 NFL playoff picture is forming faster than usual. Analysts spent the summer projecting the 14-team field, and their early brackets are worth tracking as division races develop. ESPN polled dozens of experts for its season-long prediction project, while CBS Sports projected the full playoff field and a Super Bowl LXI winner, and a league supercomputer simulated the entire season to produce seeding odds. The consensus is not uniform, which is exactly what makes the AFC and NFC races interesting.In the NFC, the West is the most debated division. Projections have the Seahawks winning the division while the Rams are still favored to advance farther in the postseason, a split that reflects how thin the margin is between two deep rosters. The NFC East winner is widely projected to be the Eagles, and the Lions remain the popular pick in the NFC North despite annual skepticism. That combination would create a crowded wild-card race in the conference, where the playoff picture changes weekly.The AFC looks equally unsettled. Multiple projection models point to the Chiefs and Bills contending for the top seed, with the Patriots named as a rising team in several simulations. Super Bowl odds reflect the same uncertainty: a handful of teams sit within a few games of one another, and the division standings in September rarely match the bracket in January.What actually decides the playoff picture is health and depth. The injury report from Week 1 already matters, roster depth separates contenders from pretenders, and the teams that win their divisional games in December control their own seeding. Fantasy football players and bettors should treat early projections as a framework, not a forecast, and watch the waiver wire and depth charts for the next breakout contributor.",
+    imageUrl: "https://sc02.alicdn.com/kf/A687a01ab7b734077af9b24767b0a00a1k.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-11 06:04:32",
+  },
 ];
