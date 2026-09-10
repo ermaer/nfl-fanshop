@@ -387,4 +387,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-10 06:01:28",
   },
+  {
+    id: 10034,
+    title: "NFL Week 1 Takeaways and Week 2 Preview: What We Learned",
+    slug: "nfl-week-1-takeaways-week-2-preview-what-we-learned",
+    excerpt: "One week is enough to change the picture. Here are the biggest NFL takeaways and what Week 2 will reveal.",
+    content: "One week of NFL football answered more questions than three months of speculation. The opening slate delivered blowouts, upsets and one instant classic, and the early division standings already look different from the preseason power rankings. Here is what Week 1 told us, and what to watch in Week 2.The rookie class arrived faster than expected. Several first-year players started and produced immediately, which reshuffles the rookie rankings and changes how defenses must game plan. Teams that drafted for need look smart right now, and the depth chart battles that seemed settled in August are open again.Injuries already matter. The first injury report of the regular season produced a handful of names that will shape Week 2, and depth across the roster is the difference between contenders and pretenders. Fantasy managers should watch the practice reports closely before locking in start sit decisions, and the waiver wire will be busy with replacement options.Quarterback play separated the field. The MVP race looks deeper than expected, and the teams that protected their passer best won comfortably. Offensive line play remains the quietest predictor of success in the league, and the teams that invested in the trenches are already seeing returns on those contract extensions.Week 2 features several divisional showdowns that will shape the playoff picture early. The best NFL stadiums will be loud, ticket prices are climbing, and the game day experience only gets better as the weather turns. The season is young, but the margin between 2-0 and 0-2 is enormous, and every snap this weekend carries weight.",
+    imageUrl: "https://sc02.alicdn.com/kf/A75eaf2e3c6ba4699afc65567765249eez.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-11 00:01:57",
+  },
 ];
