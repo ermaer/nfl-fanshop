@@ -409,4 +409,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-11 06:04:32",
   },
+  {
+    id: 10036,
+    title: "Best NFL Documentaries 2026: Essential Football Films",
+    slug: "best-nfl-documentaries-2026-essential-football-films",
+    excerpt: "From America's Game to The Brady 6, these are the NFL documentaries every football fan should watch this offseason.",
+    content: "Football's best stories rarely fit inside a broadcast window. That is why NFL Films and its partners keep producing documentaries that turn legendary careers and iconic moments into something closer to cinema. If you are building a watchlist for the 2026 season, start with the titles fans and critics keep returning to. America's Game remains the gold standard. The NFL Network series devotes a full episode to each Super Bowl champion, mixing player interviews with archival game footage, and it is widely considered the best documentary project the league has produced. For quarterback history, Elway to Marino reconstructs the 1983 draft through the eyes of the six quarterbacks taken in the first round, and The Brady 6 explains how six teams passed on Tom Brady before the Patriots selected him in the sixth round. Both are essential viewing for anyone studying draft grade logic and how rookie rankings collapse in hindsight. A Football Life: Walter Payton and The Band That Wouldn't Die show the other side of the genre, pairing a legendary career with the city and culture around it. Fans looking for behind-the-scenes access gravitate to Hard Knocks and the All or Nothing series, which follow a roster through training camp, the depth chart battles, and the injury report grind in real time. Run Ricky Run, Straight Outta LA, and other 30 for 30 entries remain popular picks in fan threads on r/nfl. Documentaries also have practical value for the modern fan. They sharpen how you read a playoff picture, trace how a dynasty was built under the salary cap, and appreciate career milestones that stay meaningful long after the final whistle. Whether you are chasing Super Bowl odds, building a fantasy football watchlist, or simply trying to understand why the game looks the way it does, these films are the fastest route to the story behind the scoreboard.",
+    imageUrl: "https://sc02.alicdn.com/kf/Ad755c9b4ced94dcb93b09e37520c34b21.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-12 00:02:50",
+  },
 ];
