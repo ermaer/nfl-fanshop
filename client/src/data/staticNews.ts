@@ -420,4 +420,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-12 00:02:50",
   },
+  {
+    id: 10037,
+    title: "NFL Stat Leaders 2026: Week 1 Categories Every Fan Tracks",
+    slug: "nfl-stat-leaders-2026-week-1-categories-to-track",
+    excerpt: "Passing, rushing, receiving, sacks and takeaways — the 2026 NFL stat leaderboards that shape MVP race talk and fantasy football.",
+    content: "The NFL stat leaderboard is the fastest way to understand a season in progress. Every week the official numbers refresh across passing, rushing, receiving, kicking, returns and defense, and those categories quietly decide the MVP race, the defensive player of the year conversation, and every fantasy football matchup. Start with the passing leaderboard. Yardage and touchdown totals move fastest in September, when defenses are still installing new schemes and the injury report is short. The 2025 season showed how unpredictable this can be: Matthew Stafford led the league in passing yards and passing touchdowns for the first time in his career at 37 years old. Any quarterback rankings built in August rarely survive the first month of live data. The rushing leaderboard tells a different story. Volume matters more than explosiveness early on, so the depth chart and backfield rotation deserve as much attention as raw yardage. A committee backfield caps individual ceilings even when the team runs the ball well, which is exactly the trap that sinks waiver wire adds. On defense, sacks and takeaways are the two categories that swing a defensive player of the year case. Both are notoriously volatile week to week, so the meaningful signal is pressure rate and turnover opportunities rather than the raw tally after one game. For accuracy, use the primary sources: NFL.com player stats, Pro-Football-Reference weekly leaders, and the ESPN and CBS Sports stat pages. Each updates on its own schedule and each breaks categories down slightly differently. When you are comparing start sit decisions or chasing fantasy football sleepers, read the leaderboard alongside the division standings, the playoff picture and Super Bowl odds — the numbers only mean something in context. Track the categories, not the hype, and the season's real stat leaders will reveal themselves long before the playoff bracket does. That discipline is what separates a fan who reacts to headlines from one who anticipates them.",
+    imageUrl: "https://sc02.alicdn.com/kf/A4c98631c21574d7a87a1cbca206ddf855.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-12 06:01:57",
+  },
 ];
