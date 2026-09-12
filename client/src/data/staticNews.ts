@@ -431,4 +431,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-12 06:01:57",
   },
+  {
+    id: 10038,
+    title: "Fantasy Football Week 2: Start Sit Advice and Waiver Targets",
+    slug: "fantasy-football-week-2-start-sit-waiver-targets",
+    excerpt: "Week 2 fantasy football decisions hinge on usage and injury news. Here is the start sit and waiver wire approach that works.",
+    content: "Week 2 is where fantasy football separates process from panic. One week of data is not a trend, but it is enough to see how teams actually plan to use their players, and that is the signal worth acting on. Start with usage, not points. A receiver who ran a high share of routes and drew targets is a better bet than one who scored on a single deep ball. The same logic applies at running back, where the depth chart and backfield split matter more than the final yardage line. Before locking in start sit calls, check snap counts and target share alongside the injury report. Injury news is the fastest way to lose a week. Yahoo's fantasy waiver wire preview before the season flagged backfield situations to monitor, including Ashton Jeanty (ankle) and Jeremiyah Love (ankle), with Breece Hall also named among the names worth tracking. When a starter's status is uncertain, the backup's value moves immediately, which is why handcuffing a lead back before the week starts is a reliable waiver wire habit rather than a panic move. For waiver wire adds, prioritize opportunity over name value. Analysts circulating pickups before Week 2 have consistently focused on running backs rostered in fewer than half of leagues, because that is where a single injury can hand someone a full workload. Streaming a defense against a struggling offense remains one of the most repeatable weekly edges. Rookie rankings also shift fast in September. First-year players earn snaps at very different rates, and the ones who stay on the field become fantasy football sleepers long before the division standings sort themselves out. Build your lineup from usage, injury status and matchup, and treat Week 2 as a data-gathering week rather than a verdict on your draft.",
+    imageUrl: "https://sc02.alicdn.com/kf/Ac2a8d7c390a641a89c5346fa2dffe0bcd.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-13 00:02:21",
+  },
 ];
