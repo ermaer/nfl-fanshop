@@ -442,4 +442,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-13 00:02:21",
   },
+  {
+    id: 10039,
+    title: "NFL All-Time Record Watch 2026: Milestones to Track This Season",
+    slug: "nfl-all-time-record-watch-2026-milestones-to-track",
+    excerpt: "Rodgers chasing third all-time in passing touchdowns, Henry climbing the rushing ranks and Garrett rising up the sack list - the 2026 milestones worth tracking.",
+    content: "Every NFL season rewrites a little of the record book, and 2026 has an unusually dense set of milestones within reach. The 17-game regular season creates more opportunities, and quarterback longevity has pushed the game's biggest names well into their late 30s. Here is what to track. Aaron Rodgers is the headliner. He needs just 13 passing touchdowns to pass Peyton Manning for third all time, behind Drew Brees and Tom Brady. Rodgers also sits fifth in career passing yards at 66,274, and with retirement announced for after this season, he needs 3,726 yards to reach the 70,000 milestone. Matthew Stafford, only 1,750 yards behind, could leapfrog him. That race is the most compelling quarterback rankings storyline of the year and will shape MVP race talk all season. Derrick Henry keeps defying modern logic about running back longevity. At 32 he ranks 10th all time in rushing yards and fourth in rushing touchdowns, despite a career attempt total outside the top 20. His first score of 2026 draws him level with Marcus Allen for third all time, though he remains 41 touchdowns behind Emmitt Smith. Last season's 1,595 yards at 5.2 yards per carry suggests no decline - useful context for anyone weighing fantasy football sleepers against veteran value. Among receivers, Mike Evans enters his 13th season and first with the 49ers, ranked 21st in career receiving yardage. A healthy 1,000-yard season could lift him as high as 12th. Davante Adams sits a few places back in yards but is far ahead in scores: only six wideouts have caught more touchdowns, and his 63 scores from inside the 10-yard line are a PFF-era record. Justin Jefferson, already in the top 100, could reach the top 10 with four more seasons at his current pace - though he would need to play until 38 to catch Jerry Rice. On defense, Myles Garrett is the name to watch. He ranks 28th all time in sacks, and 21 of the 26 retired players above him are Hall of Famers. Three more seasons at his career pace could put him fourth, which is why he is the early defensive player of the year favorite. Bobby Wagner sits 22 solo tackles behind retired Lavonte David, and Demario Davis needs 49 to become the 16th defender with 1,000 tackles. Kevin Byard's 36 interceptions rank 119th - the highest of any active player. Track these numbers alongside the division standings and playoff picture, and the season reads very differently.",
+    imageUrl: "https://sc02.alicdn.com/kf/Aca9d56b5f4f04c8ba20b24b0056d1a1bf.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-13 06:02:23",
+  },
 ];
