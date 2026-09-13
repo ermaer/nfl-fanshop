@@ -453,4 +453,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-13 06:02:23",
   },
+  {
+    id: 10040,
+    title: "NFL Week 2 Team News: Injuries, Returns and Coach Calls",
+    slug: "nfl-week-2-team-news-injuries-returns-coach-calls",
+    excerpt: "Tua Tagovailoa and Michael Penix Jr. trending toward Week 2 returns, Madubuike back for Baltimore and the coach's decisions reshaping depth charts.",
+    content: "Monday's NFL news cycle is always dominated by the same three threads: the injury report, roster moves, and the head coach decisions that quietly reshape a depth chart. Week 2 of the 2026 season is no exception, and several teams are about to get significant help back. Atlanta is the most interesting case. The Falcons listed Tua Tagovailoa (oblique) as out for Week 1 at Pittsburgh with an expected return of Week 2, and Michael Penix Jr. (knee, ACL) carries the same designation. Two quarterbacks trending back at once turns the team roster into a genuine decision rather than a depth chart formality, and it is the kind of call that defines a coach's season. The Falcons also moved offensive tackle Cameron Williams (ankle) to injured reserve on Saturday with an expected return around Week 5, thinning the protection in front of whoever takes the snaps. Baltimore gets interior help back. Nnamdi Madubuike (neck) was listed out for Week 1 at Indianapolis with an expected Week 2 return, and Teddye Buchanan (knee, ACL) carries the same timeline. Carolina expects linebacker Patrick Jones II (back) back for Week 2, and Cleveland expects guard Teven Jenkins (back) back on the same schedule. Those are the quiet upgrades that rarely make headlines but consistently show up in the run game. Not every situation is clearing up. Arizona placed running back James Conner (foot) on injured reserve with an expected return around Week 5, and Trey Benson (knee) is also on IR, which pushes Jeremiyah Love (ankle) toward the front of a backfield that waiver wire managers are already watching. Cincinnati listed Shemar Stewart (knee) as doubtful for Week 1, and Chicago's Rome Odunze (calf) opened the week questionable. Coach's decisions matter just as much. A healthy scratch is not an injury, and when a team sits a contributor for a coach's decision, it signals a role change rather than a medical one. Fantasy football managers should read the injury report and the inactive list together before locking lineups, then weigh division standings and playoff picture context before overreacting to one week of snaps. The teams handling these moves cleanly in September are usually the ones still standing in January.",
+    imageUrl: "https://sc02.alicdn.com/kf/Ab966725e6e5d4b68890f9e54ff23bbecJ.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-14 00:03:08",
+  },
 ];
