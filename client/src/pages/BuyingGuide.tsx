@@ -98,7 +98,7 @@ export default function BuyingGuide() {
       "author": { "@type": "Organization", "name": "NFL Fan Shop" },
       "publisher": { "@type": "Organization", "name": "NFL Fan Shop" },
       "datePublished": "2026-07-23",
-      "dateModified": "2026-09-13",
+      "dateModified": "2026-09-14",
       "mainEntityOfPage": { "@type": "WebPage", "@id": `${import.meta.env.VITE_BASE_URL || ""}/buying-guide` },
     });
 
@@ -124,7 +124,7 @@ export default function BuyingGuide() {
           THE ULTIMATE NFL FAN GEAR BUYING GUIDE
         </h1>
         <p className="font-tech text-sm text-muted-foreground tracking-wide mb-2">
-          Updated Sep 13, 2026 · 6 min read · By NFL Fan Shop Editorial Team
+          Updated Sep 14, 2026 · 6 min read · By NFL Fan Shop Editorial Team
         </p>
 
         {/* Key Facts Block — "Fact Block" for AI citation */}
