@@ -464,4 +464,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-14 00:03:08",
   },
+  {
+    id: 10041,
+    title: "NFL Contract Extensions 2026: Tight Ends Cash In, Cap Moves",
+    slug: "nfl-contract-extensions-2026-tight-ends-cap-moves",
+    excerpt: "Tucker Kraft and Michael Mayer reset the tight end market while Carolina and Las Vegas cleared cap space through contract restructures.",
+    content: "The most active part of the NFL calendar is not the draft or free agency. It is the first two weeks of the regular season, when contract extensions get signed quietly and NFL salary cap space gets manufactured through restructures. The transactions filed between September 9 and September 12 tell that story clearly. Green Bay made the loudest move. The Packers signed tight end Tucker Kraft to a four-year, $75 million contract extension, a deal that immediately reshapes the top of the tight end market. Las Vegas answered by signing Michael Mayer to a three-year, $45 million extension, keeping a young pass catcher in the building rather than testing free agency later. Two tight ends, $120 million combined, filed in the same week. That is not a coincidence - it is positional inflation at work. Chicago locked up its backfield, signing running back D'Andre Swift to a three-year, $33.75 million extension. Dallas was the busiest team of the week with two extensions: tight end Brevyn Spann-Ford at three years and $18 million, and wide receiver Ryan Flournoy at one year and $4.5 million. New England added defensive tackle DaQuan Jones on a one-year, $3.5 million deal, a low-risk depth move for the team roster. The quieter half of the ledger is cap management. Carolina restructured defensive end Tershawn Wharton, converting $12.235 million of 2026 salary into a signing bonus with three void years, creating $9.877 million in cap space. Las Vegas did it twice: Quay Walker's restructure created $4.828 million and Jalen Nailor's created $3.428 million. New Orleans generated $2.7752 million from Nathan Shepherd, and Minnesota cleared $1.2 million on Isaiah Rodgers. Washington released left tackle D.J. Humphries for $1.075 million in savings. Roster churn continued underneath. Dallas placed guard Tyler Smith on injured reserve with a thumb injury, which thins the interior depth chart. Tennessee claimed guard Atonio Mafi off waivers and waived Garrett Dellinger, while Seattle, Detroit and Chicago cycled practice-squad signings. For fans tracking division standings and the playoff picture, void years are the mechanism to watch: they push money into future seasons, which is precisely why a team that looks cap-healthy in September may look constrained next March. The 2026 cap is set at $301.2 million, and every restructure on this list borrows against it.",
+    imageUrl: "https://sc02.alicdn.com/kf/Afe0ecac52c1648c99f4e1c14c726b1b5m.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-14 06:02:25",
+  },
 ];
