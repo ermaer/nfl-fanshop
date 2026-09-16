@@ -530,4 +530,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-17 00:09:18",
   },
+  {
+    id: 10047,
+    title: "NFL Clear Bag Policy 2026: What Fans Can Bring to a Game",
+    slug: "nfl-clear-bag-policy-2026-what-fans-can-bring",
+    excerpt: "One clear bag, one small clutch, and the rest stays in the car. Here is exactly what the NFL bag rules allow through the gate in 2026.",
+    content: "The NFL clear bag policy is the single most common reason fans get stopped at the gate, and it applies at every stadium in the league. The rule is simple once you know it: each fan gets one large clear bag plus one small clutch, and everything else stays in the car. Approved bags are clear plastic, vinyl or PVC no larger than 12 by 6 by 12 inches (30.5 by 15.25 by 30.5 cm). That covers clear backpacks, clear fanny packs and clear cinch bags that fit the dimensions, and a one-gallon clear freezer bag works just as well. The bag can carry a logo on one side only, and no buckles, grommets, hardware or decoration may conceal any part of it. Pittsburgh's Acrisure Stadium caps that logo at 4.5 by 3.4 inches; Kansas City's Arrowhead Stadium states the same no-concealment rule. Alongside the clear bag, a non-clear bag measuring 4.5 by 6.5 inches or smaller is allowed, with or without a handle or strap. Acrisure adds that a small bag qualifies regardless of style, whether it is a fanny pack or a cross-body, so the clutch rule is more generous than most fans assume. Prohibited items cover more ground than expected: coolers, briefcases, non-clear backpacks, non-clear fanny packs, non-clear cinch bags, diaper bags, luggage, computer bags, camera and binocular bags, and any non-clear bag larger than 4.5 by 6.5 inches - unless the item is medically necessary. Large traditional seat cushions with pockets, zippers, compartments or covers are also on the list, though security will inspect them on request. The policy limits bags, not the things you normally carry. Keys, makeup, combs, phones, wallets and credit cards can travel in pockets or a jacket. Blankets are allowed if you toss them over a shoulder or arm and walk through screening. Binoculars and small cameras can be worn around the neck, with cases that follow the bag rules. Two practical notes for the game day experience. Non-compliant bags are turned away well before the gates, so check whether your stadium offers temporary bag check outside the restricted area. Diapers can go in a clear bag, and every member of a family, children included, may carry an approved clear bag and a clutch. Medical exceptions are granted after inspection at designated entry points. Tailgating is unaffected - lots are open as usual, so prohibited items can stay in your vehicle while you head in. Pack one clear bag, keep your pockets simple, and the walk to your seat takes minutes instead of an argument at the gate.",
+    imageUrl: "https://sc02.alicdn.com/kf/A629842c479af4400859336aba2aab6fak.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-17 06:03:01",
+  },
 ];
