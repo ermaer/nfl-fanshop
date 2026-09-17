@@ -541,4 +541,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-17 06:03:01",
   },
+  {
+    id: 10048,
+    title: "NFL Week 3 Schedule 2026: Matchups, Storylines and Picks",
+    slug: "nfl-week-3-schedule-2026-matchups-storylines",
+    excerpt: "Sixteen games, four networks and one trip to Rio de Janeiro: the full NFL Week 3 schedule for 2026, with the matchups that move the early playoff picture.",
+    content: "The NFL Week 3 schedule runs from Thursday, Sept. 24 through Monday, Sept. 28, and it packs 16 games into four days across every major network. One game goes international, and two primetime slots carry outsized weight for the early playoff picture. Week 3 opens with Falcons at Packers on Thursday night, Sept. 24, at 8:15 p.m. ET on Amazon - the only Thursday game before a 14-game Sunday block. The 1 p.m. ET window is the deepest of the week. Chargers at Bills and Seahawks at Commanders both land on Fox, while CBS carries Chiefs at Dolphins, Texans at Colts, Patriots at Jaguars and Bengals at Steelers. Division standings get their first real sorting there: Cincinnati visiting Pittsburgh is a straight AFC North measuring stick, and Houston at Indianapolis does the same job in the AFC South. Detroit hosts the Jets and Carolina visits Cleveland to round out the early Fox slate, with Titans at Giants completing the CBS block. The 4:05 p.m. ET slot stays in the NFC, with Vikings at Buccaneers and Cardinals at 49ers. Then Week 3 goes abroad. Ravens vs. Cowboys at 4:25 p.m. ET on CBS is played in Rio de Janeiro, part of a record nine international games on the 2026 schedule - a group that also reaches Australia, Brazil, France, Mexico, the United Kingdom, Germany and Spain. The league keeps the travel going afterwards: Colts vs. Commanders in London in Week 4, Eagles vs. Jaguars in London in Week 5, Texans vs. Jaguars in London in Week 6, Steelers vs. Saints in Paris in Week 7, Bengals vs. Falcons in Madrid in Week 9, Patriots vs. Lions in Munich in Week 10 and Vikings vs. 49ers in Mexico City in Week 11. Raiders at Saints, also at 4:25 p.m. ET, closes the afternoon window. Sunday night hands Rams at Broncos to NBC at 8:20 p.m. ET, and Week 3 finishes with Eagles at Bears on Monday, Sept. 28, at 8:15 p.m. ET on ESPN. For anyone tracking the NFL power rankings or setting a fantasy football lineup, the shape of the week is easy to read. The divisional games at 1 p.m. ET decide the first real standings tiebreakers of the season, the Rio trip puts two conference heavyweights in unfamiliar conditions, and the two primetime games give Los Angeles and Denver, then Philadelphia and Chicago, a national stage. Week 3 is where the early playoff picture starts to look like something.",
+    imageUrl: "https://sc02.alicdn.com/kf/Abcb79e7e525c426687f3a177d9b80c0cI.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-18 00:03:20",
+  },
 ];
