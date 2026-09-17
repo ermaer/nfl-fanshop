@@ -552,4 +552,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-18 00:03:20",
   },
+  {
+    id: 10049,
+    title: "NFL Week 2 Picks 2026: Spreads, Odds and Matchup Previews",
+    slug: "nfl-week-2-picks-2026-spreads-odds-previews",
+    excerpt: "Bills -5 on Thursday night, three teams laying more than a touchdown on Sunday, and the injury news already moving lines. Here is the Week 2 board.",
+    content: "The first Thursday Night Football game of the 2026 season opens the NFL Week 2 picks board with the Bills laying 5 points at home against the Lions, and the rest of the market is just as lopsided in places. The lines below are BetMGM spreads posted Tuesday, Sept. 15, so expect movement before Sunday. Buffalo opens new Highmark Stadium against a Detroit team coming off an overtime game in Week 1 - a short week plus 10 extra minutes. CBS Sports projects a 38-31 Bills win, while Sports Illustrated likes Detroit to cover the 5. The 1 p.m. ET window carries the widest spreads of the week. Tampa Bay is -8.5 at home against Cleveland, and Baltimore is -8.5 against New Orleans. Philadelphia sits at -7 in Tennessee, New England is -5.5 hosting Pittsburgh, and Chicago is -5.5 at Soldier Field against Minnesota. Tighter lines define the rest of the early slate: Houston -2.5 against Cincinnati, Green Bay -3.5 at the Jets, and Carolina -2.5 at Atlanta - a line that opened with the Panthers as 1.5-point underdogs before the money moved it. Denver is -2.5 at Mile High against Jacksonville in the 4:05 p.m. ET window. Week 2 matters most to the teams that lost in Week 1. Since 1990, only 35 of 288 teams that started 0-2 have recovered to make the playoffs, according to the NFL. Chicago and Houston both did it last season, which is the counterargument Cleveland, Tennessee and Atlanta are clinging to. The injury report is already reshaping these lines. New England lost A.J. Brown for at least four games to a high ankle sprain, and Baltimore may be without Zay Flowers, who is dealing with a hamstring issue, and Ja'Kobi Lane, who has a fractured wrist. In Atlanta, Michael Penix Jr. is unlikely to be cleared to play, though Tua Tagovailoa could return - and CBS Sports notes the Panthers line will move once the Falcons' starter is known. The Week 1 form guide explains why the market is siding with Baltimore, Philadelphia and Denver. Carolina's Bryce Young threw for 361 yards, but his defense allowed 59 points and 291 rushing yards. Tennessee managed 195 total yards against the Jets, and New Orleans gave up 165 rushing yards at 5 yards per carry. For anyone tracking division standings or the early playoff picture, Week 2 is the first real separator of the season - and the gap between 2-0 and 0-2 is historically brutal.",
+    imageUrl: "https://sc02.alicdn.com/kf/Ae3138d47f277477ebb520b53dc2cc88dg.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-18 06:02:31",
+  },
 ];
