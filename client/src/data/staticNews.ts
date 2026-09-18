@@ -574,4 +574,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-09-19 00:04:11",
   },
+  {
+    id: 10051,
+    title: "Barry Sanders Career Stats: Why He Retired at His Peak",
+    slug: "barry-sanders-career-stats-why-he-retired-at-his-peak",
+    excerpt: "15,269 rushing yards, 99 touchdowns and a Pro Bowl in all ten seasons. Barry Sanders walked away at 31, 1,457 yards short of the all-time rushing record.",
+    content: "Barry Sanders played 10 seasons for the Detroit Lions and never had a quiet one. He was selected to a Pro Bowl and an All-Pro team in every season from 1989 through 1998, then retired in 1999 at age 31 while still producing at an elite level - 1,457 yards short of Walter Payton's all-time rushing record. The career numbers explain why the decision still gets debated. Sanders finished with 15,269 rushing yards, fourth all-time, at 5.0 yards per carry. He scored 99 rushing touchdowns, tenth all-time, and added 352 receptions for 2,921 receiving yards and 10 more scores. He averaged 1,527 rushing yards per season and 99.8 per game - just under a century every Sunday. He led the NFL in rushing yards four times, in 1990, 1994, 1996 and 1997, and in rushing touchdowns once, in 1991. His signature season came in 1997: 2,053 rushing yards and a share of the NFL MVP award with Green Bay quarterback Brett Favre, the same year he collected his second Offensive Player of the Year honor. Sanders cited the Lions' front office and declining team production as his reasons for walking away. Ability was never the issue. In 1991 he helped lead Detroit to its first postseason win since 1958, and the franchise retired his No. 20 on November 25, 2004 - three months after he was inducted into the Pro Football Hall of Fame. The résumé started in college. At Oklahoma State, Sanders rushed for 2,628 yards and 37 touchdowns in 11 games as a junior in 1988, marks recognized as NCAA FBS single-season records. That season brought the Heisman Trophy and unanimous All-American honors, and Sports Illustrated ranked it the third-most impressive college sports feat of all time, behind Jesse Owens' four world records in a single hour and Cael Sanderson's 159-0 wrestling record. Detroit drafted him third overall in 1989, and he won NFL Offensive Rookie of the Year. The legacy keeps compounding. NFL Network's NFL Top 10 series named Sanders the most elusive runner in NFL history in 2007 and placed him No. 1 on its list of the greatest players never to appear in a Super Bowl. He sits on the NFL 1990s All-Decade Team and the NFL 100th Anniversary All-Time Team, and Bleacher Report ranked him first among running backs in league history. For anyone comparing modern NFL rushing yards leaders to the record book, the standard Sanders set is efficiency as much as volume: a decade of work, an average of five yards a carry, and a finish five seasons earlier than anyone expected.",
+    imageUrl: "https://sc02.alicdn.com/kf/Ae71c5cf09d4c4a33a90d40926888b148q.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-09-19 06:02:35",
+  },
 ];
