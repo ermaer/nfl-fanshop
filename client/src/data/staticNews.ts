@@ -607,4 +607,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-10 00:04:34",
   },
+  {
+    id: 10054,
+    title: "NFL Week 6 Preview 2026: London Trip, Byes and Picks to Watch",
+    slug: "nfl-week-6-preview-2026-london-trip-byes-picks",
+    excerpt: "The 2026 NFL Week 6 schedule runs Oct. 15-19 with 14 games, four teams on bye and a Sunday morning kickoff at Wembley Stadium in London.",
+    content: "The NFL Week 6 schedule runs from Thursday, Oct. 15 through Monday, Oct. 19, and it is the first weekend of the 2026 season shaped by bye weeks. Cincinnati, Detroit, Miami and Minnesota are all off, which trims the slate to 14 games - one of them kicking off before most of the country is awake. Week 6 opens with Seattle at Denver on Thursday, Oct. 15 at 8:15 p.m. ET on Prime Video at Empower Field at Mile High. The posted line lists the Seahawks as a small road favorite with a total in the low 40s. The international series lands in London again on Sunday. Houston and Jacksonville meet at Wembley Stadium at 9:30 a.m. ET, with the Jaguars listed as a field-goal favorite. Jacksonville also played in London in Week 5, making this a back-to-back stretch overseas. It is part of a 2026 international slate that has already visited Australia and Brazil and still heads to France and Spain later in the season. The 1 p.m. ET window is the deepest of the week and the one that moves the early playoff picture most. Baltimore visits Cleveland, Tennessee travels to Indianapolis, and the Jets head to New England, where the Patriots are posted as a touchdown favorite. New Orleans is at the Giants, Carolina visits Philadelphia, Chicago is at Atlanta, and Pittsburgh plays at Tampa Bay. Four of those are divisional or near-divisional games, which is why division standings start to look real around this point on the calendar. The afternoon window belongs to the AFC. Arizona visits the Rams at 4:05 p.m. ET on Fox, and the posted line makes Los Angeles the largest home favorite of the week. The Chargers are at Kansas City at 4:25 p.m. ET on CBS in the week's marquee divisional game, and Buffalo is at Las Vegas in the same window. Sunday night sends Dallas to Lambeau Field to face Green Bay at 8:20 p.m. ET on NBC, and Week 6 closes with Washington at San Francisco on Monday, Oct. 19 at 8:15 p.m. ET. For anyone tracking the NFL power rankings, a fantasy football lineup or the weekly injury report, the shape of Week 6 is easy to read. The bye weeks remove four offenses from the board for the first time this season, the London trip costs Houston and Jacksonville a normal week of routine, and the AFC West gets a head-to-head result that will still matter in December. Week 6 is where the 2026 season stops being a sample and starts being a race.",
+    imageUrl: "https://sc02.alicdn.com/kf/Aef5bf7182b624d84ad66bde1cd1da822d.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-10 06:02:37",
+  },
 ];
