@@ -596,4 +596,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-09 07:49:56",
   },
+  {
+    id: 10053,
+    title: "1972 Miami Dolphins Perfect Season: 17-0 and Still Unmatched",
+    slug: "1972-miami-dolphins-perfect-season-17-0",
+    excerpt: "Seventeen games, seventeen wins, and more than five decades without a challenger: how Don Shula's 1972 Miami Dolphins built the only perfect season in NFL history.",
+    content: "No team has matched it since. The 1972 Miami Dolphins won all 14 regular-season games, then won three more in the playoffs to finish 17-0 - the only perfect season in NFL history. It is still the benchmark every unbeaten start is measured against whenever the NFL playoff picture starts to take shape. Don Shula, in just his third season in Miami, got something no other coach ever has: a team that led the league in total offense and total defense, and in scoring offense and scoring defense, in the same year. That two-way dominance is a big part of why the NFL later ranked the '72 Dolphins No. 1 on its list of the 100 Greatest Teams. The season nearly broke in Week 5, when quarterback Bob Griese broke his ankle. Backup Earl Morrall - 38 years old, and the 1968 AP MVP under Shula in Baltimore - took over and started the rest of the regular season. Miami clinched the AFC East by Week 10. Griese came off the bench in the second half of the AFC Championship and then started Super Bowl VII. The running game ran through fullback Larry Csonka and Mercury Morris, who became the first teammates in NFL history to each rush for 1,000 yards in the same season. Paul Warfield led the team in receptions and receiving yards, Marlin Briscoe led in receiving touchdowns, and the offensive line featured Hall of Famers Jim Langer and Larry Little. On the other side, the \"No-Name Defense\" - a nickname Dallas coach Tom Landry handed them - allowed the fewest points in the league, led by Nick Buoniconti, Bill Stanfill, Manny Fernandez and safeties Dick Anderson and Jake Scott. Nine Dolphins made the Pro Bowl that season. In the playoffs, Miami beat Cleveland 20-14 in the divisional round, won at Pittsburgh 21-17 in the AFC Championship, and closed it out with a 14-7 win over Washington in Super Bowl VII. What makes 17-0 singular is how many great teams have failed at the last step. The 1934 and 1942 Chicago Bears and the 2007 New England Patriots all reached the title game unbeaten and lost it. The 1985 Bears, whose own perfect bid ended in Miami, never got back to the brink. Miami's mark has stood for more than five decades, and it remains the rare NFL record with no realistic threat in sight.",
+    imageUrl: "https://sc02.alicdn.com/kf/A5ac7d901e1334bab9894fcda14a535673.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-10 00:04:34",
+  },
 ];
