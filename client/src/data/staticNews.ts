@@ -618,4 +618,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-10 06:02:37",
   },
+  {
+    id: 10055,
+    title: "NFL Single-Season Records: Most Yards, Sacks and Touchdowns",
+    slug: "nfl-single-season-records-most-yards-sacks-touchdowns",
+    excerpt: "From Peyton Manning's 5,477 passing yards to Myles Garrett's 23 sacks, here is where the NFL single-season records actually stand in 2026.",
+    content: "NFL single-season records are the hardest marks in the sport to touch. You get one window of games and no do-overs, and several of the league's signature numbers have now survived for decades. Here is where the biggest ones stand.\n\nPASSING: PEYTON MANNING'S TWIN PEAKS\nManning set both the single-season passing yards record (5,477) and the touchdown pass record (55) in 2013. In any quarterback rankings debate, that season remains the statistical peak, and no one has matched either number since.\n\nRUSHING: ERIC DICKERSON'S 2,105\nDickerson ran for 2,105 yards in 1984. The closest anyone has come since was Adrian Peterson's 2,097 in 2012, nine yards short, with Jamal Lewis third at 2,066 in 2003. That top three has not changed.\n\nRECEIVING: CALVIN JOHNSON'S 1,964\nJohnson's 2012 season still tops the receiving list. Cooper Kupp's 1,947 yards in 2021 came within 17 yards, the nearest miss in NFL history. Michael Thomas holds the separate receptions record with 149 in 2019.\n\nTOTAL YARDS: CHRIS JOHNSON'S 2,509\nChris Johnson's 2009 season is the only 2,500-yard from-scrimmage season on record. Marshall Faulk is next at 2,429 in 1999.\n\nSCORING: LADAINIAN TOMLINSON'S 2006\nTomlinson set three NFL scoring records in a single year: 186 points, 31 total touchdowns and 28 rushing touchdowns. All three are still standing, which makes his 2006 season the standard for every fantasy football projection model.\n\nDEFENSE: MYLES GARRETT'S 23 SACKS\nGarrett set the single-season sack record with his 23rd sack on Jan. 4, 2026, moving past the 22.5 shared by Michael Strahan (2001) and T.J. Watt (2021). Pro-Football-Reference lists Al Baker's 23.0 for Detroit in 1978 among its unofficial leaders.\n\nKICKING AND EFFICIENCY\nKa'imi Fairbairn matched David Akers' 44 field goals from 2011 during the 2025 season. Jason Myers set the record for most points in a season without a touchdown, 171, also in 2025. Aaron Rodgers' 122.5 passer rating from 2011 is still the single-season high.\n\nWHY THESE HOLD\nThe rushing and receiving records were set long before the modern offensive era, and the extra games added to the schedule have still not produced a 2,100-yard rusher or a 2,000-yard receiver. The two records that did fall recently, in sacks and kicking, both belong to the 2025 season, a reminder that the oldest marks are not always the safest.",
+    imageUrl: "https://sc02.alicdn.com/kf/A14d9d8760ce34b70977f87140761d6fa3.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-11 06:06:04",
+  },
 ];
