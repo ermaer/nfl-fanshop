@@ -80,7 +80,7 @@ export default function SizeGuide() {
       "author": { "@type": "Organization", "name": "NFL Fan Shop" },
       "publisher": { "@type": "Organization", "name": "NFL Fan Shop" },
       "datePublished": "2026-07-23",
-      "dateModified": "2026-10-15",
+      "dateModified": "2026-10-16",
     });
   }, [injectJsonLd]);
 
@@ -92,7 +92,7 @@ export default function SizeGuide() {
           SIZE GUIDE & MEASUREMENTS
         </h1>
         <p className="font-tech text-sm text-muted-foreground tracking-wide mb-2">
-          All measurements in inches (in) and centimeters (cm) · Updated Oct 15, 2026
+          All measurements in inches (in) and centimeters (cm) · Updated Oct 16, 2026
         </p>
 
         {/* Fabric Facts */}
