@@ -695,4 +695,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-16 00:03:15",
   },
+  {
+    id: 10062,
+    title: "NFL QB Rankings 2026: Purdy and Mahomes Lead the Week 6 Tiers",
+    slug: "nfl-qb-rankings-2026-purdy-mahomes-week-6-tiers",
+    excerpt: "NFL QB rankings entering Week 6: Brock Purdy holds the top spot ahead of Patrick Mahomes, with Josh Allen and Lamar Jackson chasing the MVP race.",
+    content: "Entering Week 6 of the 2026 season, the NFL QB rankings have a clear shape at the top, and a genuinely unsettled race behind it.\n\nCBS Sports' QB power rankings entering Week 5 put Brock Purdy at No. 1, holding off Patrick Mahomes. That ordering matters: San Francisco sits 5-0, one of three undefeated teams in the league. Mahomes is 4-0 and coming off a Week 5 bye, which means his best football may still be ahead of him.\n\nThe MVP race is where the two leaders separate. A Week 5 NFL MVP power rankings list ran Purdy first, then Josh Allen, Lamar Jackson and Dak Prescott. Yahoo's post-Week 5 edition led with Allen shining in a Monday night thriller and placed Bryce Young tenth, a reminder that the list is not purely a ranking of arm talent.\n\nThat middle tier is the most interesting part of the quarterback rankings. Allen and Jackson own matching 4-1 records, and both bring the rushing upside that historically pulls MVP voters away from pure pocket passers. Prescott sits fourth in the conversation after NFL.com's Week 3 QB rankings noted him entering the top five. Jared Goff, at No. 7 in the CBS list, is the quietest name in the top ten: no highlight-reel runs, no MVP noise, just efficient football.\n\nESPN's quarter-season awards went further, floating Purdy for MVP, Klint Kubiak for Coach of the Year and Will Anderson Jr. for Defensive Player of the Year. That list still left plenty of room for movement, which is the honest read on this group. Five games is not a season, and the 2026 hierarchy is still being written.\n\nWeek 6 is the next checkpoint. Three teams remain undefeated, and the clubs still chasing a first win are running short on time to protect their seasons. A London kickoff and four byes will thin the slate, but the pressure at the top of the NFL QB rankings does not ease.\n\nThe power rankings and the MVP race are pointing at the same two names right now. The question for the next month is whether Purdy and Mahomes hold the top tier, or whether Allen and Jackson close the gap.\n",
+    imageUrl: "https://sc02.alicdn.com/kf/A6af5db552aa54cbbb2463667497addf4q.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-16 06:02:07",
+  },
 ];
