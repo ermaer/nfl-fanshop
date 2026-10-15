@@ -684,4 +684,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-15 06:03:09",
   },
+  {
+    id: 10061,
+    title: "NFL Power Rankings Week 6 2026: 49ers, Chiefs and a 5-0 Surprise",
+    slug: "nfl-power-rankings-week-6-2026-49ers-chiefs-and-a-5-0-surprise",
+    excerpt: "Week 6 NFL power rankings: the 49ers and Chiefs hold the top two spots, while a 5-0 Minnesota team forces every voter to rethink the field.",
+    content: "Five weeks into the 2026 NFL season, the top of the NFL power rankings has settled into something close to a consensus. San Francisco and Kansas City sit first and second almost everywhere you look.\n\nESPN's Week 6 edition leads with the 49ers at No. 1, the Chiefs at No. 2 and the Buffalo Bills at No. 3. CBS Sports calls San Francisco the league's best team at 5-0. NFL.com's rankings open the same way, with a Minnesota Vikings team that almost nobody saw coming climbing into the top 10.\n\nThat climb is the real story of this season's first month. The Vikings are 5-0, and the power rankings are visibly wrestling with how much to trust it. The Athletic slots Minnesota fourth, just ahead of a Jacksonville Jaguars team sitting 4-1 at fifth. Few top tens this week are identical, and that disagreement is itself a signal: the middle of the league is unusually flat.\n\nThe undefeated tier is thin. San Francisco's 5-0 start is the sixth in franchise history since the team joined the NFL, and three of the previous five ended at the Super Bowl. Kansas City is 4-0 and rested after an early bye. Minnesota is 5-0 behind a defense that has quietly become one of the league's stingiest units.\n\nAt the other end, the playoff picture in the AFC is thinning for the teams that stumbled early. NFL.com flagged both the Eagles and the Saints as sliding, and whoever is still chasing a first win is running out of runway before the division standings harden.\n\nBuffalo, Baltimore and Jacksonville all sit at 4-1, which is why the wild-card race already looks crowded. When teams cluster this tightly, the rankings become less about raw talent and more about who is still healthy in December.\n\nThe MVP race is starting to mirror the rankings. A 5-0 start in San Francisco and a 4-0 mark in Kansas City keep both quarterbacks in the early conversation, and the power rankings, playoff picture and Super Bowl odds are all pointing the same direction.\n\nWeek 6 is the next test. Four teams sit on bye and one game heads to London, which gives the contenders another weekend to separate themselves, or to prove this season's parity is real.\n\nFor now the rankings say what the standings say: two clear leaders, one very surprising challenger, and a wide-open field behind them.\n",
+    imageUrl: "https://sc02.alicdn.com/kf/A72b0a435b06345479ea7cc1dc89aa2d7R.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-16 00:03:15",
+  },
 ];
