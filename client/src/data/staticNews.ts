@@ -717,4 +717,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-17 00:03:14",
   },
+  {
+    id: 10064,
+    title: "Greatest NFL Defenses of All Time: Steel Curtain, 46 and Ravens",
+    slug: "greatest-nfl-defenses-of-all-time-steel-curtain-46-ravens",
+    excerpt: "From the Steel Curtain to the 1985 Bears 46 defense and the 2000 Ravens, the greatest NFL defenses of all time ranked and explained.",
+    content: "Some debates in football never end, and the greatest NFL defenses of all time is one of them. Offenses win highlights. Defenses win the argument.\n\nESPN's ranking of the best NFL defense ever puts the 1976 Pittsburgh Steelers first, the 1985 Chicago Bears second and the 2000 Baltimore Ravens third. The 1971 Minnesota Vikings, the 1962 Green Bay Packers and the 1990 New York Giants fill out the next three spots.\n\nThe consensus is narrower than that list suggests. Analysts keep returning to three units as the real contenders: the 1976 Steelers, the 1985 Bears and the 2000 Ravens. Everything else is a very good defense standing behind three great ones.\n\nStart with Pittsburgh. The Steel Curtain defined a dynasty that ran from 1974 to 1979, and some rankings place that entire era, not just the 1976 season, at No. 1. The unit was built on a defensive line that simply could not be moved.\n\nChicago's 1985 team is the one most often named the single best. The Bears ran Buddy Ryan's 46 defense and allowed 258.4 yards and 12.4 points per game, both the fewest in the NFL that season. They also forced a league-leading 54 turnovers. That is not just dominance; it is dominance in every category at once.\n\nBaltimore's 2000 defense is the statistician's favorite. The Ravens allowed the fewest points ever in a 16-game season, averaging 10.3 points allowed per game, and they did it on the way to a Super Bowl title with an offense that struggled to move the ball.\n\nTogether, the 1985 Bears and the 2000 Ravens allowed 396 points across 39 games, an average of 10.2 points per game. Two different eras, two different schemes, one shared standard.\n\nThe rest of the list deserves respect. Minnesota's 1971 unit, Green Bay's 1962 group and the 1990 Giants all reached the top six on ESPN's ranking, and each one represents a different blueprint for stopping an offense.\n\nThe debate has not gotten easier in 2026. Rules protect quarterbacks more than they ever have, and modern defenses spend most of their snaps in nickel packages. Holding a team to 12 points today is a harder job than it was in 1985.\n\nThat is exactly why the old numbers still hold up. Great defenses are remembered less for how they looked than for how little they allowed.\n",
+    imageUrl: "https://sc02.alicdn.com/kf/Adb4fde7bff39444297d34d06e7ba0697F.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-17 06:02:38",
+  },
 ];
