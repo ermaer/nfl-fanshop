@@ -706,4 +706,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-16 06:02:07",
   },
+  {
+    id: 10063,
+    title: "Greatest NFL Dynasties Ranked: Patriots, Steelers and the 49ers",
+    slug: "greatest-nfl-dynasties-ranked-patriots-steelers-49ers",
+    excerpt: "From the Patriots and Steelers to the 49ers and Cowboys, the greatest NFL dynasties ranked, and what the 2026 season says about the next one.",
+    content: "Every era of the NFL leaves behind one team that everybody else spent a decade trying to catch. Ranking the greatest NFL dynasties is really a debate about what counts most: the most Super Bowl wins, the longest run, or the most complete dominance.\n\nCBS Sports ranked the greatest dynasties of the past six decades, and its top five carries real weight: the New England Patriots (2001-18) first, the Pittsburgh Steelers (1972-79) second, the Green Bay Packers (1960-67) third, the San Francisco 49ers (1981-94) fourth, and the Kansas City Chiefs fifth.\n\nThe Patriots and Steelers lead every franchise with six Super Bowl rings each, with the Cowboys and 49ers close behind. That gap at the very top is why New England sits first: six titles spread across nearly two decades, surviving roster turnover, coordinator changes and rule changes that reshaped the sport.\n\nPittsburgh's case is a different one. The 1970s Steelers won behind a defense that some historians still rank as the best ever assembled, and the Steelers and Cowboys sit at the top of the league in division crowns. Sustained winning inside a single decade is a harder achievement than it sounds.\n\nThen there is Green Bay, the oldest name on the list. The Packers of 1960-67 under Vince Lombardi set the standard every later dynasty has been measured against, and the trophy still carries his name.\n\nSan Francisco's 1981-94 run is the one with a 2026 echo. Those 49ers won five Super Bowls and were the defining team of the 1980s. This season's 49ers are 5-0, the sixth time the franchise has opened that way since joining the NFL, and three of the previous five starts ended in the Super Bowl. That is the outline of a dynasty in progress.\n\nKansas City rounds out the top five and may be the hardest to place, because that era is still being written.\n\nFor context, four runs stand above everything else in the modern game: the 1970s Steelers, the 1980s 49ers, the 1990s Cowboys and the 2000s Patriots. Most rankings build outward from that group.\n\nWhat the 2026 season adds is a reminder of how narrow the margins really are. Three teams are undefeated, and dynasties rarely announce themselves. They usually look like one very good team that simply refuses to go away.\n",
+    imageUrl: "https://sc02.alicdn.com/kf/A08add8ef616145c380e05475e58794d5U.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-17 00:03:14",
+  },
 ];
