@@ -728,4 +728,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-17 06:02:38",
   },
+  {
+    id: 10065,
+    title: "Fantasy Football Week 6 Start Sit: Sleepers and Bye-Week Traps",
+    slug: "fantasy-football-week-6-start-sit-sleepers-bye-week-traps",
+    excerpt: "Week 6 fantasy football start sit advice: four teams on bye, Jameis Winston as the top streamer, and why Jacoby Brissett is a volume trap.",
+    content: "Week 6 is one of the toughest lineup weeks of the 2026 fantasy football season, and not because of the matchups. Four teams are on bye, the Bengals, Lions, Dolphins and Vikings, which means managers lose starters at running back, receiver and quarterback all at once.\n\nThat is why start sit advice matters more this week than the rankings do. When a third of your usual options disappear, the question is not who is better in a vacuum. It is who is actually available.\n\nThe most discussed sleeper of the week is Jameis Winston, who faces the Saints. Big Blue View named him its Sleeper of the Week for that matchup, and FantasyPros flagged the same game as a favorable Week 6 spot. When independent outlets land on the same streamer, the matchup is usually doing the work rather than the talent.\n\nThe trickier call is Jacoby Brissett. ESPN noted that Brissett is not playing poorly at all: his 57.6 QBR ranks 16th in the NFL and his 132 completions rank third. But Arizona is 1-4. That is the classic fantasy football trap of real volume on a losing team, and in most scoring formats that volume still counts for something.\n\nA few rules hold up in a bye-heavy week.\n\nStream the position you would normally set and forget. A quarterback with a good matchup is worth more this week than a bench stash you will never start.\n\nDo not chase last week's box score. Tiers matter more than rankings right now, which is why FantasyPros publishes tiers alongside its start sit advice and 4for4 leads with positional tiers rather than one flat list.\n\nUse the waiver wire before Sunday. With four teams out, replacement-level options get claimed fast, and the managers who wait are the ones starting a backup tight end.\n\nLean on the toolkit. Yahoo's Week 6 fantasy football toolkit bundles rankings, sleepers and start sit analysis in one place, which is faster than rebuilding your board from scratch.\n\nThe deadline has not moved. Set lineups before the 1 p.m. ET window, and accept that in a week with four byes, a good process beats a perfect roster.\n",
+    imageUrl: "https://sc02.alicdn.com/kf/A07e9c47b8d59412199357de9de3d580a1.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-18 00:05:12",
+  },
 ];
