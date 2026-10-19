@@ -750,4 +750,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-20 00:03:31",
   },
+  {
+    id: 10067,
+    title: "Caleb Williams' 305-Yard Return Shows What Bears Offense Can Be",
+    slug: "caleb-williams-305-yard-return-bears-offense-analysis",
+    excerpt: "Caleb Williams returned from a hamstring injury to throw for 305 yards at 83.3% completion in the Bears' 31-23 win, and the tape shows why Chicago's offense looks different with him.",
+    content: "Three weeks of hamstring rehab ended with the cleanest game of Caleb Williams' career. The Chicago Bears quarterback completed 30 of 36 passes for 305 yards, one touchdown and no interceptions in a 31-23 win over the Atlanta Falcons, a 111.2 passer rating and, by Bears Wire's accounting, the best passing performance of his three seasons.\n\nThe box score matters less than how Chicago got there. Williams completed his first 12 passes, the longest streak to start a game in his career, and went 6-for-6 on the opening drive, finishing it with a 14-yard touchdown to tight end Colston Loveland for his 50th career touchdown pass. Chicago held the ball for 40 minutes and finished with 368 yards and 31 points.\n\nThat is the core of the analysis: the Bears offense is built on rhythm, and rhythm is the first thing a hamstring strain takes away. Williams missed time after straining the hamstring in Week 2 against the Minnesota Vikings, and Chicago went 2-1 without him behind Case Keenum and Tyson Bagent. Functional, but different.\n\nWith him back, the distribution changed. Luther Burden III caught eight of eight targets for 95 yards, and the ball spread across Loveland, Rome Odunze and Burden in a way that kept Atlanta's defense from loading up on one side. Quick game, defined reads, throws on time.\n\nIt was not clean. Chicago led 31-7 in the fourth quarter and then allowed 16 straight points, including two Kyle Pitts touchdown catches and two two-point conversions. Williams said afterward the team has to stop letting opponents back in. That is a real coaching point, not a footnote: a 40-minute possession game that nearly becomes a one-score finish is how good offensive days get wasted.\n\nThe NFL injury report is now the story to watch. Williams described the hamstring as a weekly management issue rather than a finished rehab. Chicago hosts the New England Patriots on Thursday night, a four-day turnaround, then gets 10 days before Week 8 against the Seahawks on Monday night.\n\nFor fantasy football managers, the takeaway is that he stays a starter when healthy, with the short week as the only caution flag. For anyone tracking quarterback rankings, this is the version of Williams that belongs in the top half of the league, and the Bears' ceiling depends on keeping it on the field. The NFL Week 6 tape says the offense works. The next question is durability.\n",
+    imageUrl: "https://sc02.alicdn.com/kf/A72a814d3909c47acb84a94279f1b3b3cd.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-20 06:03:08",
+  },
 ];
