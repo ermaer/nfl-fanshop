@@ -739,4 +739,15 @@ export const staticNews: StaticNewsItem[] = [
     authorName: "NFL Fan Shop Editorial",
     publishedAt: "2026-10-18 00:05:12",
   },
+  {
+    id: 10066,
+    title: "NFL Comeback Player of the Year 2026: Mahomes Leads the Race",
+    slug: "nfl-comeback-player-of-the-year-2026-mahomes-leads-race",
+    excerpt: "The 2026 NFL Comeback Player of the Year race has a runaway favorite: Patrick Mahomes at -300, with Michael Penix Jr. and Kyler Murray far behind at +1200.",
+    content: "The NFL Comeback Player of the Year award changed its definition in 2024, and the shift explains almost everything about the 2026 race. Voters now weigh a return from illness, physical injury or other circumstances rather than a simple bounce-back season. Last year the trophy went to Christian McCaffrey, who posted 2,126 total yards, including 1,202 rushing yards and 10 rushing touchdowns.\n\nThis year the field has a clear front-runner. Patrick Mahomes tore his ACL and LCL in Kansas City's Week 15 game against the Chargers last season and had surgery the next day. He was back under center for Week 1. Through four weeks he had thrown for 1,037 yards with nine touchdowns and only two interceptions, and the Chiefs were 4-0.\n\nThe market has noticed. At DraftKings, as of Oct. 15, Mahomes sits at -300 to win NFL Comeback Player of the Year, according to FOX Sports. That is not a close race. Michael Penix Jr. and Kyler Murray are next at +1200, followed by Malik Nabers at +1500, George Kittle at +1800 and Fred Warner at +2000.\n\nThe most interesting name further down the board is Aaron Donald at +2200. Donald came out of retirement to rejoin the Rams, missing the Week 1 game in Australia, a 27-7 loss to the 49ers. In three games he has recorded five total pressures, including four quarterback hurries and one quarterback hit, plus two solo tackles. The raw numbers are small, which is the problem with his case: this award usually rewards volume, and a rotational defensive tackle rarely produces it. His snaps matter more because two-time Defensive Player of the Year Myles Garrett is missing time with a knee injury.\n\nDeshaun Watson and Brock Bowers sit at +2500, with Travis Hunter and Daniel Jones at +4000 and Tyreek Hill at +5000.\n\nWhy is Mahomes so far ahead? Because the award rewards two things at once: the severity of what a player overcame and how much the team wins because of it. A 4-0 start with a 9-to-2 touchdown-to-interception ratio answers both questions. His raw passing volume does not yet put him in the MVP race, but this trophy is not judged on the same curve as the MVP race.\n\nThe real variable now is the NFL injury report. Mahomes is wearing a knee brace, and any setback would reopen a board that currently looks settled. For everyone else, the path is durability plus a story voters can feel.\n\nThat is the shape of the 2026 race: one quarterback with a rebuilt knee, and a field waiting for him to slip.\n",
+    imageUrl: "https://sc02.alicdn.com/kf/A5298d58c4d2e43c68f26a4a5945d9ed3s.png",
+    category: "news",
+    authorName: "NFL Fan Shop Editorial",
+    publishedAt: "2026-10-20 00:03:31",
+  },
 ];
